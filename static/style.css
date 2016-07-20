@@ -1,0 +1,22 @@
+.cell {
+  padding: 10px 0px 10px 0px;
+}
+.dark {
+  background-color: gray;
+  border: 1px solid orange;
+}
+.light {
+  background-color: white;
+  border: 1px solid orange;
+}
+.selected {
+  border: 2px solid orange;
+}
+.highlight {
+  font-weight: bolder;
+  background-color: orange;
+  padding: 10px 0px 10px 0px;
+}
+.center {
+  text-align: center;
+}
