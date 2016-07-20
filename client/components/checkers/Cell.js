@@ -13,9 +13,11 @@ export default (props) => {
   const cell = `${props.cell.x} - ${props.cell.y}`;
   const data = JSON.stringify(props.cell);
 
+  const img = <img data-cell={data} onClick={props.onClick} alt={cell} src={src} height='60' />
+
   return (
     <div className='cell'>
-      <img data-cell={data} onClick={props.onClick} alt={cell} src={src} height='60' />
+      {img}
     </div>
   );
 };

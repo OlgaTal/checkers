@@ -73,7 +73,7 @@ class Grid extends React.Component {
 
     let arrow = '';
     if (this.props.game.player1) {
-      arrow = this.props.game.currPlayer === 1 ? '/red.png' : '/black.png';
+      arrow = this.props.game.currPlayer === 1 ? '/img/red.png' : '/img/black.png';
     }
 
     return (
