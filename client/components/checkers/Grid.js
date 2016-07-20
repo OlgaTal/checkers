@@ -73,9 +73,7 @@ class Grid extends React.Component {
 
     let arrow = '';
     if (this.props.game.player1) {
-      arrow = this.props.game.currPlayer === 1 ?  // '/red.jpg' : '/black.jpg';
-     'http://www.clipartbest.com/cliparts/bcy/k97/bcyk97gcL.svg' :
-     'http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-black-icons-arrows/007978-glossy-black-icon-arrows-arrow-thick-left.png';
+      arrow = this.props.game.currPlayer === 1 ? '/red.png' : '/black.png';
     }
 
     return (
